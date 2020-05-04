@@ -17,7 +17,7 @@ export default function Footer() {
           <img alt="footer-slack.png" src={require('./png/footer-slack.png')} />
           </a>
         
-        <a href="https://www.linkedin.com"> <img alt="footer-linkedin.png" src={require('./png/footer-linkedin.png')} />
+        <a href="https://www.linkedin.com/company/opensourcecode"> <img alt="footer-linkedin.png" src={require('./png/footer-linkedin.png')} />
         </a>      
       </div>
    

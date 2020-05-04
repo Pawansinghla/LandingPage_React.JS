@@ -298,7 +298,8 @@ color: white;
 /* ABOUT SECTION */
 
 .about-us-container {
-  margin-top: 2vh;
+  margin-top: 10vh;
+    margin-bottom: 10vh;
   background-color: #f7f7f7;
   display: flex;
 }
@@ -403,7 +404,7 @@ color: white;
 .Footer1{
   margin-top: 40px;
   display: flex;
-  padding: 60px 100px;
+  padding: 40px 100px;
   flex-direction: column;
   background-color: #333;
   justify-content: space-evenly;
@@ -417,7 +418,7 @@ color: white;
 .Footer1 h1
 {
   margin-bottom: 3vh;
-  font-size: 35px;
+  font-size: 15px;
   color: #f7f7f7;
 }
 
