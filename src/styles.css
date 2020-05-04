@@ -50,9 +50,6 @@
   text-decoration: none;
 }
 
-
-
-
 .header span {
   color: #3498db;
 }
@@ -117,8 +114,8 @@ header span {
   color: #333;
   text-align: center;
 }
-.contri{
-color: white;
+.contri {
+  color: white;
 }
 .landing-text {
   padding-top: 20px;
@@ -298,8 +295,8 @@ color: white;
 /* ABOUT SECTION */
 
 .about-us-container {
-  margin-top: 10vh;
-    margin-bottom: 10vh;
+  margin-top: -10vh;
+
   background-color: #f7f7f7;
   display: flex;
 }
@@ -401,7 +398,7 @@ color: white;
 
 /* FOOTER SECTION */
 
-.Footer1{
+.Footer1 {
   margin-top: 40px;
   display: flex;
   padding: 40px 100px;
@@ -415,22 +412,20 @@ color: white;
   max-width: 150px;
 }
 
-.Footer1 h1
-{
+.Footer1 h1 {
   margin-bottom: 3vh;
   font-size: 15px;
   color: #f7f7f7;
 }
 
 .reach-links img {
-max-height: 150px;
+  max-height: 150px;
   max-width: 150px;
   padding: 10px;
   margin: 10px;
   width: 100%;
   border: 1px #f7f7f7 solid;
   border-radius: 5px;
-
 }
 
 /* Adding media querries */
