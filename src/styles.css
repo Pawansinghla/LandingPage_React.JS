@@ -7,7 +7,62 @@
 
 /* header */
 
-header {
+.display-none {
+  display: none;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.icon {
+  display: none;
+}
+
+.header {
+  background-color: #f7f7f7;
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  flex-direction: row;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  opacity: 0.98;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+
+
+
+.header span {
+  color: #3498db;
+}
+
+.header a:hover {
+  color: #3498db;
+  transition-duration: 0.1s;
+}
+
+/* header {
   background-color: #f7f7f7;
   position: sticky;
   top: 0;
@@ -28,7 +83,7 @@ header h5 {
 
 header span {
   color: #3498db;
-}
+} */
 
 /* main content */
 
