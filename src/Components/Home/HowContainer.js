@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/style.css";
+
 export default function HowContainer() {
   return (
 
@@ -17,12 +17,12 @@ export default function HowContainer() {
     </p>
         </div>
         <div className="how-top-right-col">
-          <img alt="how-right-SVG.png" src={require('../png/how-right-SVG.png')} />
+          <img alt="how-right-SVG.png" src={require('../../png/how-right-SVG.png')} />
         </div>
       </div>
       <div className="how-bottom-row">
         <div className="how-card">
-          <img alt="how-card-sample3-SVG.png" src={require('../png/how-card-sample3-SVG.png')} />
+          <img alt="how-card-sample3-SVG.png" src={require('../../png/how-card-sample3-SVG.png')} />
           <h3>Work #1</h3>
           <p>
             We can do this and that In this way so as contain our knowledge and
@@ -30,7 +30,7 @@ export default function HowContainer() {
     </p>
         </div>
         <div className="how-card">
-          <img alt="how-card-sample2-SVG.png" src={require('../png/how-card-sample2-SVG.png')} />
+          <img alt="how-card-sample2-SVG.png" src={require('../../png/how-card-sample2-SVG.png')} />
           <h3>Work #2</h3>
           <p>
             We can do this and that In this way so as contain our knowledge and
@@ -38,7 +38,7 @@ export default function HowContainer() {
     </p>
         </div>
         <div className="how-card">
-          <img alt="how-card-sample1-SVG.png" src={require('../png/how-card-sample1-SVG.png')} />
+          <img alt="how-card-sample1-SVG.png" src={require('../../png/how-card-sample1-SVG.png')} />
           <h3>Work #3</h3>
           <p>
             We can do this and that In this way so as contain our knowledge and

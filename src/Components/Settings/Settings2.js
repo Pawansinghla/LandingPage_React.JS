@@ -1,21 +1,7 @@
 import React, { Component } from "react";
-import "../css/style.css";
-
 
 export default class Settings2 extends Component {
-  // constructor(props) {
-  //     super(props);
-  //     this.state={
-  //         display: "none"
-  //     }
 
-  //     this.click2 = this.click2.bind(this);
-
-  //   }
-
-  // click2() {
-  //     this.render();
-  // }
   render() {
     return (
 

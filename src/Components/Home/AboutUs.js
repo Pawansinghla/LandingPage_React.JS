@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/style.css";
+
 export default function AboutUs() {
   return (
     <div>
@@ -16,7 +16,7 @@ export default function AboutUs() {
       </svg>
       <div className="about-us-container">
         <div className="about-left-col">
-          <img alt="about-left-svg" src={require("../png/about-left-SVG.png")} />
+          <img alt="about-left-svg" src={require("../../png/about-left-SVG.png")} />
         </div>
         <div className="about-right-col">
           <h1>ABOUT OSC</h1>

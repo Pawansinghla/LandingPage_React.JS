@@ -1,29 +1,30 @@
 import React from 'react';
-import "../css/style.css";
+
 
 export default function LandingContainer() {
   return (
-    <div className="landing-container">
+
+    <div className="landing-container ">
       <div className="row">
-        <div class="left-col-img">
-          <img alt="left-svg" src={require('../png/left-SVG.png')} />
+        <div className="left-col-img">
+          <img alt="left-svg" src={require('../../png/left-SVG.png')} />
         </div>
 
-        <div className="left-col">
+        <div className="left-col-btns">
 
           <div className="sign-in-buttons">
             <button className="email-button" type="submit">
-              <img alt="icon-mat-email" src={require('../png/Iconmaterial-email.png')} />
+              <img alt="icon-mat-email" src={require('../../png/Iconmaterial-email.png')} />
               <p>Sign in with email</p>
             </button>
 
             <button className="google-button" type="submit">
-              <img alt="Icon-simple-google" src={require('../png/Icon-simple-google.png')} />
+              <img alt="Icon-simple-google" src={require('../../png/Icon-simple-google.png')} />
               <p>Sign in with Google</p>
             </button>
 
             <button className="github-button" type="submit">
-              <img alt="Icon-awesome-github.png" src={require('../png/Iconawesome-github.png')} />
+              <img alt="Icon-awesome-github.png" src={require('../../png/Iconawesome-github.png')} />
               <p>Sign in with Github</p>
             </button>
 
@@ -64,10 +65,11 @@ export default function LandingContainer() {
           </div>
         </div>
 
-        <div className="right-col">
-          <img alt="right-svg.png" src={require('../png/right-svg.png')} />
+        <div className="home-right-col">
+          <img alt="right-svg.png" src={require('../../png/right-svg.png')} />
         </div>
       </div>
     </div>
+
   );
 }

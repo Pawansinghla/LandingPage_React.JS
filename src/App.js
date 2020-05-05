@@ -1,18 +1,27 @@
 import React from "react";
-import "./css/style.css";
-import WelcomeComponent from "./Components/WelcomeComponent";
-import LandingContainer from "./Components/LandingContainer";
-import AboutUs from "./Components/AboutUs";
-import Footer from "./Footer";
-import HowContainer from "./Components/HowContainer";
-import Header from "./Components/Header"
-import Settings from "./Components/Settings";
+import Home from './Components/Pages/Home';
+import Header from './Components/Header'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Settings from "./Components/Pages/Settings";
 
 
 export default function App() {
   return (
+
     <div className="App">
-      <Settings />
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/' render={() => (
+            <Home />
+          )} />
+          <Route exact path='/settings' render={() => (
+            <Settings />
+          )} />
+
+        </Switch>
+      </Router>
+
     </div>
   );
 }

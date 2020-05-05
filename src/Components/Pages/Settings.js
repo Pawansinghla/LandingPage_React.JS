@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import '../css/settings.css';
-import '../css/style.css';
-import Settings1 from "./Settings1";
-import Header from "./Header";
-import Settings2 from "./Settings2";
-import Settings3 from "./Settings3";
+import '../../css/settings.css';
+
+import Settings1 from "../Settings/Settings1";
+import Header from "../Header";
+import Settings2 from "../Settings/Settings2";
+import Settings3 from "../Settings/Settings3";
 
 export default class Settings extends Component {
 

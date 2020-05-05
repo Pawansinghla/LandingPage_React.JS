@@ -1,19 +1,8 @@
 import React, { Component } from "react";
-import "../css/settings.css";
-import Settings2 from "./Settings2"
-import Settings3 from "./Settings3";
+
+import Settings2 from "../Settings/Settings2"
+import Settings3 from "../Settings/Settings3";
 export default class Settings1 extends Component {
-  // constructor(props) {
-  //     super(props);
-
-  //     this.click1 = this.click1.bind(this);
-
-  //   }
-
-  // click1(){
-
-  //     this.render();
-  // }
   render() {
     return (
 

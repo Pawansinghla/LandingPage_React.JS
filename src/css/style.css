@@ -23,6 +23,7 @@ header {
   background-color: #f7f7f7;
   position: sticky;
   top: 0;
+
   display: flex;
   z-index: 1;
   flex-direction: row;
@@ -105,7 +106,7 @@ header a:hover {
   display: flex;
 }
 
-.left-col {
+.left-col-btns {
   width: 30%;
   align-items: center;
 }
@@ -126,6 +127,7 @@ header a:hover {
 }
 
 .welcome-title {
+  padding-top: 50px;
   font-size: 45px;
   font-weight: 600;
   color: #333;
@@ -201,12 +203,11 @@ header a:hover {
   color: white;
 }
 
-.right-col {
+.home-right-col {
   width: 35%;
-  float: right;
 }
 
-.right-col img {
+.home-right-col img {
   width: 100%;
 }
 
@@ -432,7 +433,7 @@ footer img {
 
 .reach-links img {
   margin: 10px;
-
+  padding: 10px;
   border: 1px #f7f7f7 solid;
   border-radius: 5px;
 }
@@ -492,7 +493,7 @@ footer h1 {
     width: 100%;
   }
 
-  .right-col img {
+  .home-right-col img {
     width: 70%;
     padding-right: 0;
     margin-right: 15%;

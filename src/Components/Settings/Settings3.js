@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../css/style.css";
+
 
 export default class Settings3 extends Component {
 
